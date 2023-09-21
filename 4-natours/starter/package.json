@@ -4,14 +4,15 @@
   "description": "Learning node, express, and mongoDB",
   "main": "app.js",
   "scripts": {
-    "start:dev": "nodemon server.js",
+    "start": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production & nodemon server.js"
   },
   "author": "Noah Abji",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
