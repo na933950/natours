@@ -42,7 +42,7 @@ app.all('*', (req, res, next) => {
     404,
   );
 
-  next(err);
+  next(err); //This will get passed into the next middleware - the globalErrorHandler
 });
 
 // Global error handling middleware
